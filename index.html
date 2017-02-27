@@ -20,26 +20,8 @@
   var query = url_parts.length == 2 ? ('?' + url_parts[1]) : '';
   var href = '/';
   var ua = navigator.userAgent.toLowerCase();
-  // if (/iphone|ipad|ipod/.test(ua)) {
-  //   href = 'https://itunes.apple.com/cn/app/id639087967?mt=8';
-  //   ga('set', 'page', '/download/ios' + query);
-  //   ga('send', 'pageview');
-  //   ga('send', 'event', 'app', 'download-via-qrcode', 'ios', {'hitCallback': redirect});
-  //   setTimeout(redirect, 2000);
-  // } else if (/android/.test(ua)) {
-  //   href = 'http://s.zhimg.com/daily/zhihu-daily-1.0.2.apk';
-  //   ga('set', 'page', '/download/android' + query);
-  //   ga('send', 'pageview');
-  //   ga('send', 'event', 'app', 'download-via-qrcode', 'android-local', {'hitCallback': redirect});
-  //   setTimeout(redirect, 2000);
-  // } else if (/windows phone|blackberry/.test(ua)) {
-  //   ga('set', 'page', '/download/other' + query);
-  //   ga('send', 'pageview');
-  //   location.href = '/';
-  // } else {
-  //   ga('send', 'pageview');
-  //   location.href = '/';
-  // }  
+
+  window.location.href = "http://rede.natura.net/espaco/leooliveira?" + url_parts[1]
 })();
 
 </script>
